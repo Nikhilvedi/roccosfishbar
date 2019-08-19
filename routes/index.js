@@ -6,8 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', {page:'Home', menuId:'home'});
 });
 
-router.get('/about', function(req, res, next) {
-  res.render('about', {page:'About Us', menuId:'about'});
+router.get('/menu', function(req, res, next) {
+  res.render('menu', {page:'Menu', menuId:'menu'});
 });
 
 router.get('/contact', function(req, res, next) {
