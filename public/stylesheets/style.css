@@ -1,4 +1,4 @@
-.bg-3 { 
+.bg-3 {
       background-color: #ffffff;
       color: #555555;
   }
@@ -22,3 +22,17 @@
   .active>a {
     color: #1abc9c !important;;
   }
+
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
